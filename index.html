@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <title>GeoApi</title>
+</head>
+<body>
+    <main class="container">
+        <form id="form">
+            <label>
+                IP del usuario                <input required id="input" type="text" placeholder="Introduce la IP aquí">
+                <small>Por ejemplo: 216.58.214.206</small>
+            </label>
+                    
+            <button type="submit" id="submit">
+                Buscar información de esta IP
+            </button>
+        </form>
+            
+        <div>
+            <pre id="results">
+            
+            </pre>
+        </div>
+    </main>
+
+    <script src="assets/scripts/app.js"></script>    
+</body>
+</html>
